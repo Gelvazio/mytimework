@@ -24,7 +24,6 @@ module.exports = {
         
         //return res.json({ hora, minuto, segundo, hora_inicio_int, hora_fim_int, aListaTime });
 
-
         let project = await Project.findById(project_id);
 
         if (!project){            
@@ -33,6 +32,6 @@ module.exports = {
 
         time = await Time.create({ hora_inicio, hora_fim, project_id });
 
-        return res.status(200).json({ time, hora:'10:00:00'  });
+        return res.status(200).json({ time });
     },
 };
