@@ -11,12 +11,12 @@ module.exports = {
         let user = await User.findOne({ login });
 
         if (user){            
-            return res.json({ message: 'Usuário já está cadastrado!', retorno: false });
+            return res.status(400).json({ message: 'Usuário já está cadastrado!', retorno: false });
         }
 
         user = await User.create({ login, name, email, login, password });
 
-        return res.json({ user });
+        return res.status(200).json({ user });
     },
 
     async authenticate(req, res){

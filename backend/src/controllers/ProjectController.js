@@ -8,11 +8,11 @@ module.exports = {
         let project = await Project.findOne({ descricao });
 
         if (project){            
-            return res.json({ message: 'Projeto já está cadastrado com este nome!', retorno: false });
+            return res.status(400).json({ message: 'Projeto já está cadastrado com este nome!', retorno: false });
         }
 
         project = await Project.create({ descricao, started_at, ended_at });
 
-        return res.json({ project });
+        return res.status(200).json({ project });
     },
 };
