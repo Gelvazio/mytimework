@@ -45,5 +45,3 @@ Veremos alguns exemplos destes operadores lembrando que o operador de igualdade 
 // Todas as datas diferentes de 1 maio de 2012
 > db.ColDate.find({ aDate: { $ne: ISODate('2012-05-01') } });
 Com isso terminamos este artigo curto e simples sobre como trabalhar com datas no MongoDB. Espero ter ajudado aqueles que estão começando a dar os primeiros passos neste banco de dados NoSQL e ainda tem dúvidas sobre como trabalhar com datas.
-
-Um grande abraço e até o próximo artigo!
