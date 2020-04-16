@@ -1,2 +1,0 @@
-# mytimework
-Projeto teste nodejs
