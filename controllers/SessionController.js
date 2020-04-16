@@ -2,10 +2,6 @@ const User = require('../models/User');
 
 module.exports = {
 
-    async ping(req, res) {
-        return res.json({ data: new Date()});
-    },
-
     async store(req, res) {
         var name = req.query.name;
         var email = req.query.email;
@@ -38,5 +34,17 @@ module.exports = {
         }
 
         return res.json({ token: "dados do token", user });       
-    }
+    },
+
+    async findall (req, res) {
+        const users = await User.find();
+
+        return res.json( {  users });   
+    },
+
+    async excluiall(req, res) {
+        const apagou = await Webhook.remove({});
+                
+        return res.status(200).json({ sucesso: 'Todos Webhooks apagados!', apagou });        
+    },
 };

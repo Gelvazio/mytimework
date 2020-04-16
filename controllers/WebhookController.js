@@ -2,10 +2,6 @@ const Webhook = require('../models/Webhook');
 
 module.exports = {
 
-    async ping(req, res) {
-        return res.json({ webhook: "dados do webhook", data: new Date()});
-    },
-
     async index(req, res) {
         var url =  "https://mytimework.herokuapp.com/webhook";
 
@@ -48,9 +44,10 @@ module.exports = {
         return res.json({ webhook });
     },
 
-    async excluiAll(req, res) {
-        const apagou = await Webhook.remove({});        
-        return res.status(200).json({ sucesso: 'Todos Webhooks apagados!'});        
+    async excluiall(req, res) {
+        const apagou = await Webhook.remove({});
+
+        return res.status(200).json({ sucesso: 'Todos Webhooks apagados!', apagou });        
     },
 
     async dialogflow(req, res) {

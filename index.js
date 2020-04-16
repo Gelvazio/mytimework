@@ -1,16 +1,31 @@
 const express = require('express');
 const mongoose = require('mongoose');
-
 const cors = require('cors');
 const routes = require('./routes');
 const app = express();
 
-mongoose.connect('mongodb+srv://omnistack:omnistack@cluster0-dfpzp.mongodb.net/semana09?retryWrites=true&w=majority',{
+const dotenv = require ('dotenv');
+const config = dotenv.config();
+
+const database = process.env.DB_MONGO_DATABASE
+const username = process.env.DB_MONGO_USERNAME
+const password = process.env.DB_MONGO_PASSWORD
+const hostname = process.env.DB_MONGO_HOSTNAME
+const port = process.env.DB_MONGO_PORT
+
+const uri = `mongodb+srv://${hostname}/${database}`;
+
+const options = {
+    user: username,
+    pass: password,
     useNewUrlParser: true,
     useUnifiedTopology: true,
-});
+  };
+
+mongoose.connect(uri, options);
 
 app.use(cors());
+
 app.use(express.json());
 
 app.use(routes);

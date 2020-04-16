@@ -10,9 +10,3 @@ const WebhookSchema = new mongoose.Schema({
 });
 
 module.exports = mongoose.model('Webhook', WebhookSchema);
-
-/*
-user_agent:String,           
-    accept:String,           
-    content_length:String,   
-*/

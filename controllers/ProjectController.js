@@ -15,4 +15,17 @@ module.exports = {
 
         return res.status(200).json({ project });
     },
+    
+    async index (req, res) {
+        const projects = await Project.find();
+
+        return res.json( { projects });
+    },
+
+    async findall (req, res) {
+        const projects = await Project.find();
+
+        return res.json( { projects });
+    },
+
 };
