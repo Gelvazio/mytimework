@@ -20,7 +20,7 @@ const Usuario = new mongoose.Schema({
     password: {
         type: String,
         required: true,
-        select : false,
+        select : true,
         set:value => crypto
                         .createHash('md5')
                         .update(value)

@@ -5,6 +5,7 @@ const TimeController = require('./controllers/TimeController');
 const PrincipalController = require('./controllers/PrincipalController');
 const WebhookController = require('./controllers/WebhookController');
 const UserController = require('./controllers/UserController');
+const jwt = require('jsonwebtoken');
 
 const routes = express.Router();
 
@@ -38,6 +39,25 @@ routes.post('/users/store', UserController.store);
 routes.post('/users/login', UserController.login);
 routes.post('/users', UserController.index);
 routes.delete('/users', UserController.exclui);
+routes.post('/users/update', UserController.update);
+
+// autenticacao
+const authMidleware = async (req, res, next) => {
+    const [espaco, token] = req.headers.authorization.split(' ')
+
+    try {
+        const payload = await jwt.verify(token, process.env.SECRET);
+        const user = await UserModel.findById(payload.user);
+
+        return res.status(200).json({user});
+    } catch (error) {
+        res.status(401).json({'Erro': error.toString()});
+    }
+}
+
+routes.get('/users/authenticate', authMidleware, UserController.authenticate);
+
+
 
 
 
