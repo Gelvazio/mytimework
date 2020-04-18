@@ -21,11 +21,4 @@ module.exports = {
 
         return res.json( { projects });
     },
-
-    async findall (req, res) {
-        const projects = await Project.find();
-
-        return res.json( { projects });
-    },
-
 };

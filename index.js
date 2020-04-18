@@ -30,6 +30,6 @@ app.use(express.json());
 
 app.use(routes);
 
-app.listen(process.env.PORT || 3000);
+app.listen(process.env.PORT || 3333);
 
-console.log(`App Backend started on port 3000`)
+console.log(`App Backend started on port 3333`)
