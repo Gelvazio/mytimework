@@ -10,14 +10,15 @@ module.exports = {
         try {
             const user = await UserModel.findOne({ email: req.body.email });
             if (user) {
-                //return res.status(400).json({message: 'Usuário já está cadastrado com este email!', retorno: false});
+                return res.status(400).json({message: 'Usuário já está cadastrado com este email!', retorno: false});
             }
 
             const result = await UserModel.create(req.body);
             // Remove a senha de usuarios para não mostrar após o mesmo ser criado
             const { password, ...users } = result.toObject()
 
-            const token = jwt.sign({user: users.id}, process.env.SECRET, { expiresIn: process.env.SECRET_TIME_EXPIRES });
+            // const token = jwt.sign({user: users.id}, process.env.SECRET, { expiresIn: process.env.SECRET_TIME_EXPIRES });
+            const token = jwt.sign({user: users.id}, process.env.SECRET, { expiresIn: 86400 });
 
             return res.status(200).json({ users, token });
         } catch (error){
@@ -63,26 +64,49 @@ module.exports = {
         return res.status(401).json({'mensagem':'Usuario não encontrado!'});
     },
 
-    async index(req, res) {
-        const users = await UserModel.find();
-        return res.status(200).json({users});
-    },
-
-    async authenticate(req, res) {
+    async listall(req, res) {
         const users = await UserModel.find();
         return res.status(200).json({ users });
     },
 
-    async exclui(req, res) {
-        const { login } = req.body;
+    // autenticacao
+    async authMidleware (req, res, next) {
+        const [espaco, token] = req.headers.authorization.split(' ')
 
-        if(login) {
-            const apagou = await UserModel.remove( { login })
-            return res.status(200).json({'mensagem':'Usuario removido.'});
-        } else {
-            const apagou = await UserModel.remove({})
-            return res.status(200).json({'mensagem': 'Todos os usuários removidos.'});
+        try {
+            const payload = await jwt.verify(token, process.env.SECRET);
+            const user = await UserModel.findById(payload.user);
+            if (!user) {
+                return res.status(401).json({'mensagem': 'Token inválido!'});
+            }
+
+            next();
+        } catch (error) {
+            res.status(401).json({'Error on authMidleware()': error.toString()});
         }
-        return res.status(200).json({users});
+    },
+
+    async authenticate(req, res) {
+        const { email } = req.body
+        const user = await UserModel.find({ email });
+
+        if(user.length > 0){
+            return res.status(200).json({ user });
+        }
+        return res.status(401).json({ 'mensagem': 'Usuario não encontrado!', email });
+    },
+
+    async exclui(req, res) {
+        const { email } = req.body;
+
+        if(email) {
+            const user = await UserModel.findOne({email});
+            if (user) {
+                const apagou = await UserModel.remove( { email })
+                return res.status(200).json({'mensagem':'Usuário removido.' + email});
+            }
+            return res.status(401).json({'mensagem':'Usuário não encontrado com este email:' + email});
+        }
+        return res.status(401).json({'mensagem': 'Informe um email!'});
     },
 };
