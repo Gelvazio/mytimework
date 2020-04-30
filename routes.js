@@ -1,12 +1,14 @@
 const express = require('express');
 
-const SessionController = require('./controllers/SessionController');
-const ProjectController = require('./controllers/ProjectController');
-const TimeController = require('./controllers/TimeController');
-const UserController = require('./controllers/UserController');
+const SessionController       = require('./controllers/SessionController');
+const ProjectController       = require('./controllers/ProjectController');
+const TimeController          = require('./controllers/TimeController');
+const UserController          = require('./controllers/UserController');
 const RegistroCivilController = require('./controllers/RegistroCivilController');
-const ProdutoController = require('./controllers/ProdutoController');
-const PessoaController = require('./controllers/PessoaController');
+const ProdutoController       = require('./controllers/ProdutoController');
+const PessoaController        = require('./controllers/PessoaController');
+const ItemController          = require('./controllers/ItemController');
+const VendaController         = require('./controllers/VendaController');
 
 const routes = express.Router();
 
@@ -36,13 +38,23 @@ routes.post('/times/store', TimeController.store);
 routes.get('/registro/usuarios', RegistroCivilController.listaUsuarios);
 
 // Produto
-routes.post('/produto/store', ProdutoController.store);
-routes.get('/produto/index', ProdutoController.index);
+routes.post('/produto/store',  ProdutoController.store);
+routes.get( '/produto/index',  ProdutoController.index);
 routes.post('/produto/remove', ProdutoController.remove);
 
 // Pessoa
 routes.post('/pessoa/store',  PessoaController.store);
-routes.get('/ pessoa/index',  PessoaController.index);
+routes.get( '/pessoa/index',  PessoaController.index);
 routes.post('/pessoa/remove', PessoaController.remove);
+
+// Item
+routes.post('/item/store',  ItemController.store);
+routes.get( '/item/index',  ItemController.index);
+routes.post('/item/remove', ItemController.remove);
+
+// Venda
+routes.post('/venda/store',  VendaController.store);
+routes.get( '/venda/index',  VendaController.index);
+routes.post('/venda/remove', VendaController.remove);
 
 module.exports = routes;
