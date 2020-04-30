@@ -1,0 +1,16 @@
+$ migrate-mongo
+Usage: migrate-mongo [options] [command]
+
+
+  Commands:
+
+    init                  initialize a new migration project
+    create [description]  create a new database migration with the provided description
+    up [options]          run all unapplied database migrations
+    down [options]        undo the last applied database migration
+    status [options]      print the changelog of the database
+
+  Options:
+
+    -h, --help     output usage information
+    -V, --version  output the version number

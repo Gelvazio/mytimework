@@ -4,13 +4,8 @@ const SessionController = require('./controllers/SessionController');
 const ProjectController = require('./controllers/ProjectController');
 const TimeController = require('./controllers/TimeController');
 const UserController = require('./controllers/UserController');
-const RegistroCivilController = require('./controllers/RegistroCivilController');
 
 const routes = express.Router();
-
-routes.get('/', function index(req, res){
-    return res.json({ inicio : 'TELA INICIAL DO SISTEMA', data:  new Date()})
-});
 
 // Sessions - authenticate using JWT
 routes.post('/sessions/authenticate', SessionController.authMidleware, SessionController.authenticate);
@@ -30,7 +25,6 @@ routes.post('/times/store', TimeController.store);
 //routes.get('/times/index', TimeController.index);
 //routes.get('/times/findAll', TimeController.findAll);
 
-// Registro Civil
-routes.get('/registro/usuarios', RegistroCivilController.listaUsuarios);
+
 
 module.exports = routes;
