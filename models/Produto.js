@@ -2,13 +2,15 @@ const mongoose = require('mongoose');
 
 const ProdutoSchema = new mongoose.Schema({
     codigo: {
-        type: integer,
+        type: Number,
         required: true,
         unique: true,
     },
-    descricao:String,
-    started_at:String,
-    ended_at: String    
+    descricao   : String,
+    preco_custo : Number,    
+    preco_venda : Number,    
+    estoque     : Number,
+    taxa_imposto: Number    
 });
 
-module.exports = mongoose.model('Project', ProjectSchema);
+module.exports = mongoose.model('Produto', ProdutoSchema);

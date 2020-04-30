@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5422415b-787c-4ffe-b949-3a342d9e2fd4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config/database.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/Produto.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/PrincipalController.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/SessionController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/SessionController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/UserController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/UserController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/WebhookController.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/User.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/Usuario.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/Webhook.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Produto.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/Produto.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/node_modules/" />
     <ignored path=".idea/" />
@@ -28,8 +19,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="858">
-              <caret line="33" column="31" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="31" />
+            <state relative-caret-position="910">
+              <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -46,8 +37,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/models/Produto.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+            <state relative-caret-position="260">
+              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -120,11 +111,6 @@
               <item name="mytimework" type="b2602c69:ProjectViewProjectNode" />
               <item name="mytimework" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="mytimework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mytimework" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -180,7 +166,7 @@
       <workItem from="1587594663625" duration="621000" />
       <workItem from="1587663416408" duration="40000" />
       <workItem from="1588190562899" duration="322000" />
-      <workItem from="1588256445103" duration="418000" />
+      <workItem from="1588256445103" duration="1460000" />
     </task>
     <task id="LOCAL-00001" summary="usuario">
       <created>1587247318740</created>
@@ -203,11 +189,18 @@
       <option name="project" value="LOCAL" />
       <updated>1587395434352</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="criada autenticacao">
+      <created>1588257162132</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1588257162132</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31145000" />
+    <option name="totallyTimeSpent" value="32187000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -348,8 +341,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/routes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="858">
-          <caret line="33" column="31" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="31" />
+        <state relative-caret-position="910">
+          <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -369,8 +362,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/models/Produto.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        <state relative-caret-position="260">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
         </state>
       </provider>
     </entry>

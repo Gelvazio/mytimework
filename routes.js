@@ -5,6 +5,8 @@ const ProjectController = require('./controllers/ProjectController');
 const TimeController = require('./controllers/TimeController');
 const UserController = require('./controllers/UserController');
 const RegistroCivilController = require('./controllers/RegistroCivilController');
+const ProdutoController = require('./controllers/ProdutoController');
+const PessoaController = require('./controllers/PessoaController');
 
 const routes = express.Router();
 
@@ -32,5 +34,15 @@ routes.post('/times/store', TimeController.store);
 
 // Registro Civil
 routes.get('/registro/usuarios', RegistroCivilController.listaUsuarios);
+
+// Produto
+routes.post('/produto/store', ProdutoController.store);
+routes.get('/produto/index', ProdutoController.index);
+routes.post('/produto/remove', ProdutoController.remove);
+
+// Pessoa
+routes.post('/pessoa/store',  PessoaController.store);
+routes.get('/ pessoa/index',  PessoaController.index);
+routes.post('/pessoa/remove', PessoaController.remove);
 
 module.exports = routes;
