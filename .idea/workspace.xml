@@ -3,8 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="5422415b-787c-4ffe-b949-3a342d9e2fd4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/Produto.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/Produto.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto/Controle de horas.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto/Datas no mongodb.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto/JSON_WEB_TOKEN.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto/_Desenvolvedor Back end_ Ampulheta.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto/lista de alterações.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto/lista de comandos mmongodb.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RegistroCivil/arc-export-29-4-2020.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RegistroCivil/arc-log-export.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RegistroCivil/dados/usuario_1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RegistroCivil/dados/usuario_144.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RegistroCivil/dados/usuario_2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RegistroCivil/dados/usuario_3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RegistroCivil/dados/usuario_8.json" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/node_modules/" />
     <ignored path=".idea/" />
@@ -94,8 +105,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="212" />
-    <option name="y" value="32" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -120,7 +131,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../project-native-script-udemy" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../safetycred" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
@@ -166,7 +177,7 @@
       <workItem from="1587594663625" duration="621000" />
       <workItem from="1587663416408" duration="40000" />
       <workItem from="1588190562899" duration="322000" />
-      <workItem from="1588256445103" duration="1460000" />
+      <workItem from="1588256445103" duration="2165000" />
     </task>
     <task id="LOCAL-00001" summary="usuario">
       <created>1587247318740</created>
@@ -196,14 +207,21 @@
       <option name="project" value="LOCAL" />
       <updated>1588257162132</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="criado modelos novos">
+      <created>1588264130230</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1588264130230</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32187000" />
+    <option name="totallyTimeSpent" value="32892000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14554243" />
@@ -242,7 +260,8 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="usuario" />
     <MESSAGE value="criada autenticacao" />
-    <option name="LAST_COMMIT_MESSAGE" value="criada autenticacao" />
+    <MESSAGE value="criado modelos novos" />
+    <option name="LAST_COMMIT_MESSAGE" value="criado modelos novos" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/models/Project.js">

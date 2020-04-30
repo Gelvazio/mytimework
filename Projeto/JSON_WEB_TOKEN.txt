@@ -1,7 +1,0 @@
-importar a lib jsonwebtoken
-
-
-name    = req.body.name;    
-password= req.body.password;
-login   = req.body.login;
-email   = req.body.email;
