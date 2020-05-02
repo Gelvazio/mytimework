@@ -35,7 +35,9 @@ routes.post('/times/store', TimeController.store);
 //routes.get('/times/findAll', TimeController.findAll);
 
 // Registro Civil
-routes.get('/registro/usuarios', RegistroCivilController.listaUsuarios);
+routes.get('/registro/usuarios', RegistroCivilController.listaUsuarios1);
+routes.post('/registro/store', RegistroCivilController.store);
+routes.get('/registro/index', RegistroCivilController.index);
 
 // Produto
 routes.post('/produto/store',  ProdutoController.store);

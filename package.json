@@ -1,9 +1,11 @@
 {
   "dependencies": {
+    "axios": "^0.19.2",
     "cors": "^2.8.5",
     "crypto": "^1.0.1",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "fetch": "^1.1.0",
     "heroku-cli": "^7.0.9",
     "jsonwebtoken": "^8.5.1",
     "migrations": "^0.1.7",
