@@ -19,21 +19,41 @@ module.exports = {
             const { password, ...users } = result.toObject()
 
             const token = jwt.sign({user: users.id}, process.env.SECRET, { expiresIn: 86400});
+
             return res.status(200).json({ users, token });
         } catch (error){
             return res.status(400).json({ 'Error on create user!': error });
         }
     },
 
+    // retorna o usuario e o token
     async login(req, res) {
         const [ hashType, hash ]  = req.headers.authorization.split(' ');
-        const [ email, password ] = Buffer.from(hash, 'base64').toString().split(':');
+        const [ login, password ] = Buffer.from(hash, 'base64').toString().split(':');
 
-        const user = await UserModel.findOne({ email });
+        const user = await UserModel.findOne({ login });
         if(user){
-            const token = jwt.sign({user: user.id}, process.env.SECRET, {expiresIn: process.env.SECRET_TIME_EXPIRES});
+            if(password == user.password){
+                const token = jwt.sign({user: user.id}, process.env.SECRET, {expiresIn: process.env.SECRET_TIME_EXPIRES});
 
-            return res.status(200).json({user , token });
+                return res.status(200).json({user , token });
+            }
+            return res.status(200).json({"status": false , 'mensagem':'senha inválida!' });
+        }
+
+        return res.status(401).json({'mensagem':'Usuario não encontrado!'});
+    },
+
+    async validaLogin(req, res) {
+        const { login, password } = req.body;
+        const user = await UserModel.findOne({ login });
+        if(user){
+            if(password == user.password){
+                const token = jwt.sign({user: user.id}, process.env.SECRET, {expiresIn: process.env.SECRET_TIME_EXPIRES});
+
+                return res.status(200).json({user , token });
+            }
+            return res.status(200).json({"status": false , 'mensagem':'senha inválida!' });
         }
 
         return res.status(401).json({'mensagem':'Usuario não encontrado!'});
@@ -52,6 +72,7 @@ module.exports = {
         }
         return res.status(401).json({'mensagem': 'Informe um login!'});
     },
+
     async deleteAll(req, res) {
         const apagou = await UserModel.remove()
         return res.status(200).json({'message': 'Todos usuários apagados'});
@@ -59,7 +80,6 @@ module.exports = {
 
     async index(req, res) {
         const users = await UserModel.find();
-
         return res.json({users});
     },
 };

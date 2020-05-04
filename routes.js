@@ -23,6 +23,7 @@ routes.post('/sessions/authenticate', SessionController.authMidleware, SessionCo
 routes.post('/users/store', UserController.store);
 routes.post('/users/login', UserController.login);
 routes.delete('/users/deleteAll', UserController.deleteAll);
+routes.post('/users/validaLogin', UserController.validaLogin);
 routes.get('/users', UserController.index);
 
 // Projects

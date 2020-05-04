@@ -7,6 +7,7 @@ const User = new mongoose.Schema({
             required: true,
             unique: true,
         },
+        /*
         password: {
             type: String,
             required: true,
@@ -15,6 +16,11 @@ const User = new mongoose.Schema({
                 .createHash('md5')
                 .update(value)
                 .digest('hex'),
+        },
+        */
+        password: {
+            type: String,
+            required: true
         },
     },
     {

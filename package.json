@@ -8,6 +8,7 @@
     "fetch": "^1.1.0",
     "heroku-cli": "^7.0.9",
     "jsonwebtoken": "^8.5.1",
+    "migrate-mongo": "^7.2.1",
     "migrations": "^0.1.7",
     "mongoose": "^5.9.9",
     "mongose": "^0.0.2-security",
