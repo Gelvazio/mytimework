@@ -1,5 +1,6 @@
 const UserModel = require('../models/User');
 const jwt = require('jsonwebtoken');
+const crypto = require('crypto');
 
 const dotenv = require('dotenv');
 const config = dotenv.config();
@@ -48,10 +49,15 @@ module.exports = {
         const { login, password } = req.body;
         const user = await UserModel.findOne({ login });
         if(user){
-            if(password == user.password){
+            let password_crypto = crypto
+                .createHash('md5')
+                .update(password)
+                .digest('hex');
+
+            if(password_crypto == user.password){
                 const token = jwt.sign({user: user.id}, process.env.SECRET, {expiresIn: process.env.SECRET_TIME_EXPIRES});
 
-                return res.status(200).json({user , token });
+                return res.status(200).json({user , token});
             }
             return res.status(200).json({"status": false , 'mensagem':'senha inválida!' });
         }
