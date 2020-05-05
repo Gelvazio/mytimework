@@ -80,7 +80,7 @@ module.exports = {
     },
 
     async deleteAll(req, res) {
-        const apagou = await UserModel.remove()
+        const apagou = await UserModel.remove();
         return res.status(200).json({'message': 'Todos usuários apagados'});
     },
 
