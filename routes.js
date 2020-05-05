@@ -13,7 +13,7 @@ const VendaController         = require('./controllers/VendaController');
 const routes = express.Router();
 
 routes.get('/', function index(req, res){
-    return res.json({ inicio : 'TELA INICIAL DO SISTEMA', data:  new Date()})
+    return res.json({ inicio : 'TELA INICIAL DO SISTEMA 10', data:  new Date()})
 });
 
 // Sessions - authenticate using JWT
