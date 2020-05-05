@@ -47,6 +47,8 @@ module.exports = {
 
     async validaLogin(req, res) {
         const { login, password } = req.body;
+        console.log(req.body);
+
         const user = await UserModel.findOne({ login });
         if(user){
             let password_crypto = crypto

@@ -20,15 +20,15 @@ routes.get('/', function index(req, res){
 routes.post('/sessions/authenticate', SessionController.authMidleware, SessionController.authenticate);
 
 // Users
-routes.post('/users/store', UserController.store);
-routes.post('/users/login', UserController.login);
+routes.post('/users/store'      , UserController.store);
+routes.post('/users/login'      , UserController.login);
 routes.delete('/users/deleteAll', UserController.deleteAll);
 routes.post('/users/validaLogin', UserController.validaLogin);
-routes.get('/users', UserController.index);
+routes.get('/users'             , UserController.index);
 
 // Projects
 routes.post('/projects/store', ProjectController.store);
-routes.get('/projects/index', ProjectController.index);
+routes.get('/projects/index' , ProjectController.index);
 
 // Times
 routes.post('/times/store', TimeController.store);
@@ -37,27 +37,27 @@ routes.post('/times/store', TimeController.store);
 
 // Registro Civil
 routes.get('/registro/usuarios', RegistroCivilController.listaUsuarios1);
-routes.post('/registro/store', RegistroCivilController.store);
-routes.get('/registro/index', RegistroCivilController.index);
+routes.post('/registro/store'  , RegistroCivilController.store);
+routes.get('/registro/index'   , RegistroCivilController.index);
 
 // Produto
-routes.post('/produto/store',  ProdutoController.store);
-routes.get( '/produto/index',  ProdutoController.index);
+routes.post('/produto/store' ,  ProdutoController.store);
+routes.get( '/produto/index' ,  ProdutoController.index);
 routes.post('/produto/remove', ProdutoController.remove);
 
 // Pessoa
-routes.post('/pessoa/store',  PessoaController.store);
-routes.get( '/pessoa/index',  PessoaController.index);
+routes.post('/pessoa/store' , PessoaController.store);
+routes.get( '/pessoa/index' , PessoaController.index);
 routes.post('/pessoa/remove', PessoaController.remove);
 
 // Item
-routes.post('/item/store',  ItemController.store);
-routes.get( '/item/index',  ItemController.index);
+routes.post('/item/store' , ItemController.store);
+routes.get( '/item/index' , ItemController.index);
 routes.post('/item/remove', ItemController.remove);
 
 // Venda
-routes.post('/venda/store',  VendaController.store);
-routes.get( '/venda/index',  VendaController.index);
+routes.post('/venda/store' , VendaController.store);
+routes.get( '/venda/index' , VendaController.index);
 routes.post('/venda/remove', VendaController.remove);
 
 module.exports = routes;
