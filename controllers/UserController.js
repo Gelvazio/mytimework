@@ -57,7 +57,7 @@ module.exports = {
             if(password_crypto == user.password){
                 const token = jwt.sign({user: user.id}, process.env.SECRET, {expiresIn: process.env.SECRET_TIME_EXPIRES});
 
-                return res.status(200).json({user , token});
+                return res.status(200).json({"status": true, user , token});
             }
             return res.status(200).json({"status": false , 'mensagem':'senha inválida!' });
         }
