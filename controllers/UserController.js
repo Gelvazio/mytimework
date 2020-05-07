@@ -59,7 +59,7 @@ module.exports = {
 
                 return res.status(200).json({"status": true, user , token});
             }
-            return res.status(200).json({"status": false , 'mensagem':'senha inválida!' });
+            return res.status(401).json({"status": false , 'mensagem':'senha inválida!' });
         }
 
         return res.status(401).json({'mensagem':'Usuario não encontrado!'});
