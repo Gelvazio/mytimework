@@ -11,7 +11,7 @@ module.exports = {
         try {
             const user = await UserModel.findOne({ login: req.body.login });
             if (user) {
-                return res.status(400).json({message: 'Usuário já está cadastrado com este login!', retorno: false});
+                return res.status(400).json({"status": false,"mensagem":'Usuário já está cadastrado com este login!'});
             }
 
             const result = await UserModel.create(req.body);
@@ -23,7 +23,7 @@ module.exports = {
 
             return res.status(200).json({ users, token });
         } catch (error){
-            return res.status(400).json({ 'Error on create user!': error });
+            return res.status(400).json({"status": false,"mensagem": 'Error on create user!' + error });
         }
     },
 
@@ -81,7 +81,7 @@ module.exports = {
 
     async deleteAll(req, res) {
         const apagou = await UserModel.remove();
-        return res.status(200).json({'message': 'Todos usuários apagados'});
+        return res.status(200).json({"status": true, 'mensagem': 'Todos usuários apagados'});
     },
 
     async index(req, res) {
