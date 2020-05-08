@@ -2,13 +2,12 @@ const mongoose = require('mongoose');
 const crypto = require('crypto');
 
 const User = new mongoose.Schema({
-        login: {
+        email: {
             type: String,
             required: true,
             unique: true,
         },
         nome:String,
-        email:String,
         password: {
             type: String,
             required: true,

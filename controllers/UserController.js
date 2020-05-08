@@ -30,9 +30,9 @@ module.exports = {
     // retorna o usuario e o token
     async login(req, res) {
         const [ hashType, hash ]  = req.headers.authorization.split(' ');
-        const [ login, password ] = Buffer.from(hash, 'base64').toString().split(':');
+        const [ email, password ] = Buffer.from(hash, 'base64').toString().split(':');
 
-        const user = await UserModel.findOne({ login });
+        const user = await UserModel.findOne({ email });
         if(user){
             if(password == user.password){
                 const token = jwt.sign({user: user.id}, process.env.SECRET, {expiresIn: process.env.SECRET_TIME_EXPIRES});
@@ -46,8 +46,8 @@ module.exports = {
     },
 
     async validaLogin(req, res) {
-        const { login, password } = req.body;
-        const user = await UserModel.findOne({ login });
+        const { email, password } = req.body;
+        const user = await UserModel.findOne({ email });
         if(user){
             let password_crypto = crypto
                 .createHash('md5')
@@ -66,15 +66,15 @@ module.exports = {
     },
 
     async delete(req, res) {
-        const { login } = req.body;
+        const { email } = req.body;
 
-        if(login) {
-            const user = await UserModel.findOne({ login });
+        if(email) {
+            const user = await UserModel.findOne({ email });
             if (user) {
-                const apagou = await UserModel.remove( { login })
-                return res.status(200).json({'mensagem':'Usuário removido.' + login });
+                const apagou = await UserModel.remove( { email })
+                return res.status(200).json({'mensagem':'Usuário removido.' + email });
             }
-            return res.status(401).json({'mensagem':'Usuário não encontrado com este login:' + login});
+            return res.status(401).json({'mensagem':'Usuário não encontrado com este login:' + email});
         }
         return res.status(401).json({'mensagem': 'Informe um login!'});
     },
