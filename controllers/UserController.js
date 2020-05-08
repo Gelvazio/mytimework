@@ -11,7 +11,7 @@ module.exports = {
         try {
             const user = await UserModel.findOne({ login: req.body.login });
             if (user) {
-                return res.status(400).json({"status": false,"mensagem":'Usuário já está cadastrado com este login!'});
+                return res.status(400).json({"status": false,"mensagem":'Usuário já está cadastrado com este login!Login: ' + login});
             }
 
             const result = await UserModel.create(req.body);
