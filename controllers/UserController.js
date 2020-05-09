@@ -9,7 +9,7 @@ module.exports = {
 
     async store(req, res) {
         try {
-            const user = await UserModel.findOne({ login: req.body.login });
+            const user = await UserModel.findOne({ email: req.body.email });
             if (user) {
                 return res.status(400).json({"status": false,"mensagem":'Usuário já está cadastrado com este login!Login: ' + login});
             }
