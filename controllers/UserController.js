@@ -9,9 +9,11 @@ module.exports = {
 
     async store(req, res) {
         try {
-            const user = await UserModel.findOne({ email: req.body.email });
+            const email = req.body.email;
+
+            const user = await UserModel.findOne({ email: email });
             if (user) {
-                return res.status(400).json({"status": false,"mensagem":'Usuário já está cadastrado com este login!Login: ' + login});
+                return res.status(400).json({"status": false,"mensagem":'Usuário já está cadastrado com este login!Login: ' + email});
             }
 
             const result = await UserModel.create(req.body);
