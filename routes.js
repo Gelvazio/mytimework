@@ -16,6 +16,10 @@ routes.get('/', function index(req, res){
     return res.json({ inicio : 'TELA INICIAL DO SISTEMA 10', data:  new Date()})
 });
 
+routes.get('/test', function index(req, res) {
+    return res.json({variavel_token: process.env.token, data: new Date()})
+});
+
 // Sessions - authenticate using JWT
 routes.post('/sessions/authenticate', SessionController.authMidleware, SessionController.authenticate);
 

@@ -1,9 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5422415b-787c-4ffe-b949-3a342d9e2fd4" name="Default Changelist" comment="" />
-    <ignored path="$PROJECT_DIR$/node_modules/" />
-    <ignored path=".idea/" />
+    <list default="true" id="56c15720-c494-4419-a682-304328e36433" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../babytea/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../babytea/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../babytea/client/.idea/client.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../babytea/client/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../babytea/client/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../babytea/client/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../babytea/client/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../babytea/client/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../babytea/client/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../babytea/client/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../babytea/client/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../babytea/client/browserslist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../babytea/client/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../babytea/client/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../babytea/client/src/app/app-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../babytea/client/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../babytea/client/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../babytea/client/src/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../babytea/client/src/app/models/categoria.enum.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../babytea/client/src/app/models/loja.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../babytea/client/src/app/models/product-status.enum.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../babytea/client/src/app/models/product.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../babytea/client/src/app/pages/cadastro/cadastro-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../babytea/client/src/app/pages/cadastro/cadastro.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../babytea/client/src/app/pages/cadastro/cadastro.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../babytea/client/src/app/pages/cadastro/cadastro.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../babytea/client/src/app/pages/home/components/produto/produto.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../babytea/client/src/app/pages/home/components/produto/produto.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../babytea/client/src/app/pages/home/components/produto/produto.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../babytea/client/src/app/pages/home/home-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../babytea/client/src/app/pages/home/home.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../babytea/client/src/app/pages/home/product-list.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../babytea/client/src/app/pages/home/product-list.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../babytea/client/src/app/pages/home/product-list.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../babytea/client/src/app/services/produto.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../babytea/client/src/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../babytea/client/src/assets/jasmine.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../babytea/client/src/environments/environment.prod.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../babytea/client/src/environments/environment.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../babytea/client/src/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../babytea/client/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../babytea/client/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../babytea/client/src/polyfills.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../babytea/client/src/styles.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../babytea/client/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../babytea/client/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../babytea/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../babytea/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../babytea/server/.eslintrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../babytea/server/.prettierrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../babytea/server/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../babytea/server/dist/app.controller.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../babytea/server/dist/app.controller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../babytea/server/dist/app.controller.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../babytea/server/dist/app.module.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../babytea/server/dist/app.module.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../babytea/server/dist/app.module.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../babytea/server/dist/app.service.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../babytea/server/dist/app.service.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../babytea/server/dist/app.service.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../babytea/server/dist/main.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../babytea/server/dist/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../babytea/server/dist/main.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../babytea/server/dist/produto/produto.controller.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../babytea/server/dist/produto/produto.controller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../babytea/server/dist/produto/produto.controller.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../babytea/server/dist/produto/produto.entity.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../babytea/server/dist/produto/produto.entity.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../babytea/server/dist/produto/produto.entity.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../babytea/server/dist/produto/produto.module.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../babytea/server/dist/produto/produto.module.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../babytea/server/dist/produto/produto.module.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../babytea/server/dist/tsconfig.build.tsbuildinfo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../babytea/server/nest-cli.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../babytea/server/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../babytea/server/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../babytea/server/src/app.controller.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../babytea/server/src/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../babytea/server/src/app.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../babytea/server/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../babytea/server/src/produto/produto.controller.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../babytea/server/src/produto/produto.entity.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../babytea/server/src/produto/produto.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../babytea/server/tsconfig.build.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../babytea/server/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../babyteaapi/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/../babyteaapi/Procfile" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,76 +96,25 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes.js">
+        <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1269">
-              <caret line="47" column="9" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+            <state relative-caret-position="470">
+              <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/controllers/UserController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/User.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/Procfile">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="JavaScript File" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>authenticate</find>
-      <find>si</find>
-      <find>UserModel</find>
-      <find>jwt</find>
-      <find>User</find>
-      <find>sequencia</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/controllers/AuthenticationController.js" />
-        <option value="$PROJECT_DIR$/index.js" />
-        <option value="$PROJECT_DIR$/controllers/ProjectController.js" />
-        <option value="$PROJECT_DIR$/models/Usuario.js" />
-        <option value="$PROJECT_DIR$/utils/jwt.js" />
-        <option value="$PROJECT_DIR$/token.js" />
-        <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/config/database.js" />
-        <option value="$PROJECT_DIR$/.sequelizerc" />
-        <option value="$PROJECT_DIR$/models/Produto.js" />
-        <option value="$PROJECT_DIR$/yarn-error.log" />
-        <option value="$PROJECT_DIR$/controllers/SessionController.js" />
-        <option value="$PROJECT_DIR$/routes.js" />
-        <option value="$PROJECT_DIR$/models/User.js" />
-        <option value="$PROJECT_DIR$/controllers/UserController.js" />
-      </list>
-    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
@@ -88,12 +122,12 @@
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -101,37 +135,21 @@
               <item name="mytimework" type="b2602c69:ProjectViewProjectNode" />
               <item name="mytimework" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="mytimework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mytimework" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mytimework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mytimework" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../crediario-digital" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../SafetycredPHPStorm" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Fontes\PROJETOS_TIDAS\mytimework\models" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Fontes\PROJETOS_TIDAS\mytimework" />
-    </key>
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2018.3.6\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -150,209 +168,31 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5422415b-787c-4ffe-b949-3a342d9e2fd4" name="Default Changelist" comment="" />
-      <created>1587127256343</created>
+      <changelist id="56c15720-c494-4419-a682-304328e36433" name="Default Changelist" comment="" />
+      <created>1589490862292</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1587127256343</updated>
-      <workItem from="1587127257937" duration="657000" />
-      <workItem from="1587128187003" duration="34000" />
-      <workItem from="1587128798424" duration="1803000" />
-      <workItem from="1587234582834" duration="17675000" />
-      <workItem from="1587393998426" duration="5865000" />
-      <workItem from="1587417574389" duration="541000" />
-      <workItem from="1587554523804" duration="2225000" />
-      <workItem from="1587593248631" duration="944000" />
-      <workItem from="1587594663625" duration="621000" />
-      <workItem from="1587663416408" duration="40000" />
-      <workItem from="1588190562899" duration="322000" />
-      <workItem from="1588256445103" duration="4596000" />
-      <workItem from="1588278256044" duration="538000" />
-      <workItem from="1588278822480" duration="15000" />
-      <workItem from="1588457113718" duration="1248000" />
-      <workItem from="1588611977194" duration="3940000" />
-      <workItem from="1588684047132" duration="1935000" />
-      <workItem from="1588702978598" duration="610000" />
-      <workItem from="1588705569671" duration="6000" />
-      <workItem from="1588707950668" duration="471000" />
-      <workItem from="1588708585213" duration="17000" />
-      <workItem from="1588708629081" duration="282000" />
-      <workItem from="1588713264625" duration="656000" />
-      <workItem from="1588714634798" duration="1800000" />
-      <workItem from="1588718843877" duration="645000" />
-      <workItem from="1588884617920" duration="1814000" />
-      <workItem from="1588889640057" duration="498000" />
-      <workItem from="1588937740886" duration="1489000" />
-      <workItem from="1589033137576" duration="294000" />
+      <updated>1589490862292</updated>
+      <workItem from="1589490863697" duration="1247000" />
     </task>
-    <task id="LOCAL-00001" summary="usuario">
-      <created>1587247318740</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1587247318742</updated>
-    </task>
-    <task id="LOCAL-00002" summary="criada autenticacao">
-      <created>1587251644746</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1587251644746</updated>
-    </task>
-    <task id="LOCAL-00003" summary="criada autenticacao">
-      <created>1587395434352</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1587395434352</updated>
-    </task>
-    <task id="LOCAL-00004" summary="criada autenticacao">
-      <created>1588257162132</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1588257162132</updated>
-    </task>
-    <task id="LOCAL-00005" summary="criado modelos novos">
-      <created>1588264130230</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1588264130230</updated>
-    </task>
-    <task id="LOCAL-00006" summary="criado modelos novos">
-      <created>1588266947021</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1588266947021</updated>
-    </task>
-    <task id="LOCAL-00007" summary="criado modelos novos">
-      <created>1588276599241</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1588276599241</updated>
-    </task>
-    <task id="LOCAL-00008" summary="criado modelos novos">
-      <created>1588457497299</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1588457497299</updated>
-    </task>
-    <task id="LOCAL-00009" summary="atualizado modelo de login">
-      <created>1588614530423</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1588614530423</updated>
-    </task>
-    <task id="LOCAL-00010" summary="atualizado modelo de autenticacao de senhas">
-      <created>1588615066993</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1588615066993</updated>
-    </task>
-    <task id="LOCAL-00011" summary="atualizado modelo de autenticacao de senhas">
-      <created>1588615076561</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1588615076561</updated>
-    </task>
-    <task id="LOCAL-00012" summary="atualizado modelo de autenticacao de senhas">
-      <created>1588713282069</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1588713282069</updated>
-    </task>
-    <task id="LOCAL-00013" summary="atualizado modelo de autenticacao de senhas">
-      <created>1588717268134</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1588717268134</updated>
-    </task>
-    <task id="LOCAL-00014" summary="atualizado modelo de autenticacao de senhas">
-      <created>1588717390053</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1588717390053</updated>
-    </task>
-    <task id="LOCAL-00015" summary="atualizado modelo de autenticacao de senhas">
-      <created>1588718883405</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1588718883405</updated>
-    </task>
-    <task id="LOCAL-00016" summary="atualizado modelo de autenticacao de senhas">
-      <created>1588885055139</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1588885055139</updated>
-    </task>
-    <task id="LOCAL-00017" summary="atualizado modelo de autenticacao de senhas">
-      <created>1588886106305</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1588886106305</updated>
-    </task>
-    <task id="LOCAL-00018" summary="atualizado modelo de autenticacao de senhas">
-      <created>1588889775284</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1588889775284</updated>
-    </task>
-    <task id="LOCAL-00019" summary="retornado login quando o login ja existe no cadastro">
-      <created>1588937788633</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1588937788633</updated>
-    </task>
-    <task id="LOCAL-00020" summary="removido login e deixado apenas email como chave">
-      <created>1588939385370</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1588939385370</updated>
-    </task>
-    <task id="LOCAL-00021" summary="removido login e deixado apenas email como chave">
-      <created>1588939704096</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1588939704096</updated>
-    </task>
-    <task id="LOCAL-00022" summary="removido login e deixado apenas email como chave">
-      <created>1589033306924</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1589033306924</updated>
-    </task>
-    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51581000" />
+    <option name="totallyTimeSpent" value="1247000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="npm" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1880734" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973147" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -360,168 +200,25 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" />
-      <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Database" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="usuario" />
-    <MESSAGE value="criada autenticacao" />
-    <MESSAGE value="criado modelos novos" />
-    <MESSAGE value="atualizado modelo de login" />
-    <MESSAGE value="atualizado modelo de autenticacao de senhas" />
-    <MESSAGE value="retornado login quando o login ja existe no cadastro" />
-    <MESSAGE value="removido login e deixado apenas email como chave" />
-    <option name="LAST_COMMIT_MESSAGE" value="removido login e deixado apenas email como chave" />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/models/Project.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/TimeController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/WebhookController.js" />
-    <entry file="file://$PROJECT_DIR$/models/Usuario.js" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/token.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" column="10" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/PrincipalController.js" />
-    <entry file="file://$PROJECT_DIR$/controllers/ProjectController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="22" column="6" selection-start-line="18" selection-start-column="4" selection-end-line="22" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bkp_20_04_2020/index.js" />
-    <entry file="file://$PROJECT_DIR$/bkp_2/index.js" />
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="470">
-          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+          <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/Produto.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/ProdutoController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yarn-error.log" />
-    <entry file="file://$PROJECT_DIR$/controllers/RegistroCivilController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="729">
-          <caret line="27" column="98" selection-start-line="27" selection-start-column="89" selection-end-line="27" selection-end-column="98" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.sequelizerc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/RegistroCivil.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="22" column="14" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/20200420212854-create-users.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/SessionController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1269">
-          <caret line="47" column="9" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/User.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/UserController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
